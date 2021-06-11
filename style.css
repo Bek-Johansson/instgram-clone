@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  Padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'inter' sans-serif;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  background-color: #fafafa;
+}
+
+h6 {
+  color: gray;
+  text-align: center;
+  text-transform:uppercase;
+  margin: 10px 0 10px;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+h6::before, h6::after {
+  background-color: rgba(128, 128, 128, 0.185);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align:middle;
+  width: 70%;
+}
+
+h6::before {
+  right: 1em;
+  margin-left: -50%;
+}
+
+h6::after {
+  left: 1em;
+  margin-right: -50%;
+}
+
+img {
+  margin-right: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #0095f6;
+}
+
+select {
+  width: 70px !important;
+  background-color: #fafafafa;
+  color: #8e8e8e;
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #8e8e8e;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+
+.icon {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  color: #4267B2;
+}
+
+.container__main {
+  max-width: 375px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.logo {
+  font-family: "Lobster Two", cursive;
+  margin: 0px auto;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.765);
+}
+
+.btn, p {
+  margin: 0;
+}
+.btn {
+  background-color: #87cefa9c;
+  color: white;
+  border: none;
+  margin: 8px auto;
+  padding: 5px 40px;
+  width: 270px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.forgot__pwd--text {
+  margin-top: 15px;
+  text-align: center;
+  color: #00376b;
+}
+
+.copyright {
+  margin-left: 15px;
+}
+
+.bottom {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.icon-apple {
+  width: 40%;
+  margin-top: 20px;
+}
+
+.icon-google {
+  width: 40%;
+}
+
+@media screen and (min-width:436px) {
+  .container {
+    background-color:fafafa;
+    margin: 60px auto 0;
+  }
+ 
+  body {
+    background-color: #fafafa;
+    
+  }
+
+  .container--two {
+    background-color: #fafafa;
+  }
+
+  .logo {
+    margin:0 22px;
+    background-color: lawngreen;
+  }
+    
+  .top {
+    padding-bottom: 20px;
+    border: 1px solid lightgray;
+    background-color: white;
+  }
+  .middle {
+    border: 1px solid lightgray;
+    background-color: #4267B2;
+    /* height: 60px; */
+    margin: 10px 0 20px;
+  }
+}
